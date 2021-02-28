@@ -7,10 +7,10 @@
 .wrap
 {
 	margin: 0 auto;
-	width: 70%;
+	width: 85%;
 }
 .header{
-	padding: 1.3em 0em;
+	padding: 3.9em 0em;
 }
 .logo{
 	float: left;
@@ -20,7 +20,7 @@
 }
 .nav {
 	float: right;
-	margin-top: 0.82em;
+	margin-top: 0px;
 }
 .nav > ul >li {
 	display: inline-block;
@@ -44,6 +44,74 @@
 .nav > ul > li > a:hover {
 	color: #fff;
 	background: #d0a5a5;
+}
+ .mops_bg{
+  background:  url(banner.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.mops_text {
+  padding: 20% 10%;
+}
+.mops_text h2 {
+  color: #fff;
+  font-size: 2em;
+    font-weight: 600;
+  z-index: 10;
+  text-align: center;
+  position: relative; 
+  margin-top: -140px;
+  }
+.mops_text h2 span {
+  font-size: 1em;
+  font-weight: 10000000px;
+}
+.mops_text p {
+  color: #fff;
+  font-size: 1.2em;
+  text-align: center;
+  margin: 1.4em auto;
+  width: 76%;
+  font-weight: 200;
+  line-height: 1.3em;
+}
+.mops_text .da-butt {
+  display: block;
+  background-color: #a97b7b;
+  color: #fff;
+  font-size: 1em;
+  text-transform: uppercase;
+  margin: 0 auto;
+  width: 15%;
+  text-align: center;
+  padding: 1em 2em;
+}
+.da-butt {
+  position: absolute; 
+  left: 500px; top: 370px;  
+}
+.mops_text .da-butt:hover
+{
+  background:#d0a5a5;
+}
+.butt-img{
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 3.5em auto 1em;
+  background: url(banner.png);
+  -webkit-transition: all 0.5s ease-in-out; 
+  -moz-transition: all 0.5s ease-in-out; 
+  -o-transition: all 0.5s ease-in-out; 
+  -ms-transition: all 0.5s ease-in-out; 
+  transition: all 0.5s ease-in-out; 
+  position: relative; 
+  left: 210px; top: 130px;  
+}
+.butt-img:hover{
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url(banner.png);
 }
 </body>
 </html>
